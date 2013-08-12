@@ -7,6 +7,10 @@
  *
  * @author Guillermo Sandoval
  */
-public class PortaAviones {
+public class PortaAviones extends PadreBarco{
+
+    public PortaAviones(int x) {
+        super(x);
+    }
     
 }

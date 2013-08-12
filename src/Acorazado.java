@@ -7,6 +7,13 @@
  *
  * @author Guillermo Sandoval
  */
-public class Acorazado {
+public class Acorazado extends PadreBarco{
+
+    public Acorazado(int x) {
+        super(x);
+    }
+    
+   
+    
     
 }

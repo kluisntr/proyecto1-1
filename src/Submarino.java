@@ -7,6 +7,10 @@
  *
  * @author Guillermo Sandoval
  */
-public class Submarino {
+public class Submarino extends PadreBarco{
+
+    public Submarino(int x) {
+        super(x);
+    }
     
 }

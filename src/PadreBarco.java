@@ -9,6 +9,7 @@
  */
 public class PadreBarco {
   protected int posicion;
+    protected int turno;
 
     public PadreBarco(int x){
         posicion =x;
@@ -21,7 +22,10 @@ public class PadreBarco {
     public void setPosicion(int posicion) {
         this.posicion = posicion;
     }
+public void setturno(int turno){
+this.turno =turno;
 
+}
 
 
 }

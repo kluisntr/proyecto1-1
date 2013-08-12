@@ -7,6 +7,10 @@
  *
  * @author Guillermo Sandoval
  */
-public class Destructor {
+public class Destructor extends PadreBarco{
+
+    public Destructor(int x) {
+        super(x);
+    }
     
 }
